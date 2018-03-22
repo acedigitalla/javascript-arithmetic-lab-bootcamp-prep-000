@@ -1,9 +1,26 @@
 var number = 10
 
-function add5() {
-  number += 5
+function add (a, b) {
+  return a + b;
 }
 
-function divideBy3() {
-  number /= 3
+function subtract (a, b) {
+  return a - b;
 }
+
+function multiply (a, b) {
+  return a * b; 
+}
+
+function divide (a, b) {
+  return a / b; 
+}
+
+function increment (n) {
+  return inc(n); 
+}
+
+function decrement (n) {
+  return dec(n); 
+}
+
