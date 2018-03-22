@@ -16,10 +16,10 @@ function divide (a, b) {
   return a / b;
 }
 
-function increment (n) {
-  return inc(n);
+function inc (n) {
+  return n++;
 }
 
-function decrement (n) {
-  return dec(n);
+function dec (n) {
+  return n--;
 }
