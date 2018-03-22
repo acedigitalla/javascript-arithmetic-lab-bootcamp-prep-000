@@ -26,5 +26,5 @@ function dec(n) {
 
 function makeInt(n, number) {
   var parsed = parseInt(n, number);
-  return parsed * 100;
+  return parsed;
 }
