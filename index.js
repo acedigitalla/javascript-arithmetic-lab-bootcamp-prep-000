@@ -29,4 +29,3 @@ function makeInt(n, number) {
   if (isNaN(parsed)) { return 0 }
   return parsed * 100;
 }
-
